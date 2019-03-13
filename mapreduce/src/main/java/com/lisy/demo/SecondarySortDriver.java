@@ -22,7 +22,7 @@ import java.util.Date;
 public class SecondarySortDriver {
     public static Logger logger = LoggerFactory.getLogger(SecondarySortDriver.class);
     //二次排序键
-    public static class DateTemperaturePair implements Writable, WritableComparable<DateTemperaturePair>{
+    public static class DateTemperaturePair implements WritableComparable<DateTemperaturePair>{
         private Text yearMonth = new Text();//自然键
         private Text day = new Text();
         private IntWritable temperature = new IntWritable();//次键
@@ -144,7 +144,7 @@ public class SecondarySortDriver {
             job.setJobName("secondarySortJob");
             job.setJarByClass(SecondarySortDriver.class);
 
-            FileInputFormat.addInputPath(job,new Path("E:/temp/demo2.txt"));
+            FileInputFormat.addInputPath(job,new Path("E:\\workspace\\hadoop\\temp\\demo2.txt"));
 
             job.setMapperClass(Map2.class);
             job.setMapOutputKeyClass(DateTemperaturePair.class);

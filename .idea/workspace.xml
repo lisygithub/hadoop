@@ -2,43 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c7b1b0f-703f-4e15-9bd4-d86e496a3720" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/lisy/demo/SecondarySortDriver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/CompositeKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/CompositeKeyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/NaturalKeyGroupingComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/NaturalKeyPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/NaturalValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/SecondarySortDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/SecondarySortMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/SecondarySortReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/src/main/java/AggregateByKeyDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/src/main/java/AggregateByKeyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/src/main/java/AggregateByKeyReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/src/main/java/TopNDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/src/main/java/TopNMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/src/main/java/TopNReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce1/topN01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topN/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topN/src/main/java/AggregateByKeyDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topN/src/main/java/AggregateByKeyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topN/src/main/java/AggregateByKeyReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topN/src/main/java/TopNDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topN/src/main/java/TopNMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topN/src/main/java/TopNReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topN02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leftJoin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leftJoin/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leftJoin/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_google_inject_extensions_guice_servlet_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_guice_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__io_netty_netty_3_6_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_avro_avro_1_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_curator_curator_client_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_curator_curator_framework_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_htrace_htrace_core_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topN/topN.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/src/main/java/com/lisy/demo/SecondarySortDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/lisy/demo/SecondarySortDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/target/classes/META-INF/mapreduce.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/target/classes/com/lisy/demo/SecondarySortDriver$DateTemperaturePair.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/target/classes/com/lisy/demo/SecondarySortDriver$DateTemperaturePair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/target/classes/com/lisy/demo/SecondarySortDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/target/classes/com/lisy/demo/SecondarySortDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topN/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/topN/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topN/src/main/java/AggregateByKeyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/topN/src/main/java/com/lisy/mr1/AggregateByKeyDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topN/src/main/java/AggregateByKeyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/topN/src/main/java/com/lisy/mr1/AggregateByKeyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topN/src/main/java/AggregateByKeyReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/topN/src/main/java/com/lisy/mr1/AggregateByKeyReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topN/src/main/java/TopNDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/topN/src/main/java/com/lisy/mr1/TopNDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topN/src/main/java/TopNMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/topN/src/main/java/com/lisy/mr1/TopNMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topN/src/main/java/TopNReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/topN/src/main/java/com/lisy/mr1/TopNReducer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hadoop_mr/target/" />
     <ignored path="$PROJECT_DIR$/hadoopmr/target/" />
@@ -68,7 +139,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mapreduce/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
+            <state relative-caret-position="1386">
               <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
             </state>
           </provider>
@@ -77,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/SecondarySortDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="-301">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -183,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -216,21 +286,55 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="nativeio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552482284554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552569419238" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="kotlin.migration.detection.enabled" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/topN" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -339,16 +443,17 @@
       <workItem from="1552374389787" duration="6543000" />
       <workItem from="1552381700853" duration="8810000" />
       <workItem from="1552440521709" duration="14538000" />
+      <workItem from="1552523650348" duration="3223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30257000" />
+    <option name="totallyTimeSpent" value="33480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,7 +485,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -594,20 +699,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/chap02/mapreduce/NaturalKeyGroupingComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/chap02/mapreduce/CompositeKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/chap02/mapreduce/NaturalKeyGroupingComparator.java" />
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/chap02/mapreduce/CompositeKey.java" />
     <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/NaturalKeyGroupingComparator.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -674,22 +767,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/lisy/demo/CompositeKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="90" column="7" selection-start-line="77" selection-start-column="4" selection-end-line="90" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/lisy/demo/CompositeKey.java" />
     <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/SecondarySortMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-528">
@@ -718,7 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/org/dataalgorithms/mapreduce/SecondarySortDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="-301">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -728,7 +806,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mapreduce/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
+        <state relative-caret-position="1386">
           <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
         </state>
       </provider>

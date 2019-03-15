@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/hadoop.iml" filepath="$PROJECT_DIR$/.idea/hadoop.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapreduce/mapreduce.iml" filepath="$PROJECT_DIR$/mapreduce/mapreduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderInversion/orderInversion.iml" filepath="$PROJECT_DIR$/orderInversion/orderInversion.iml" />
     </modules>
   </component>
 </project>

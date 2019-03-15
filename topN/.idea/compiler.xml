@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="leftJoin" />
-        <module name="topN" />
+        <module name="movingAverage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="leftJoin" target="1.7" />
+      <module name="movingAverage" target="1.7" />
       <module name="topN" target="1.7" />
     </bytecodeTargetLevel>
   </component>

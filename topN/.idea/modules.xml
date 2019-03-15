@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../leftJoin/leftJoin.iml" filepath="$PROJECT_DIR$/../leftJoin/leftJoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movingAverage/movingAverage.iml" filepath="$PROJECT_DIR$/../movingAverage/movingAverage.iml" />
       <module fileurl="file://$PROJECT_DIR$/topN.iml" filepath="$PROJECT_DIR$/topN.iml" />
     </modules>
   </component>

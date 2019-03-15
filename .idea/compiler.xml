@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mapreduce" />
+        <module name="orderInversion" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hadoop_mr" target="1.5" />
       <module name="hadoopmr" target="1.7" />
       <module name="mapreduce" target="1.7" />
+      <module name="orderInversion" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

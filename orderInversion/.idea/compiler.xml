@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/../commonFriend/target/generated-sources/archetype/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="commonFriend" />
+        <module name="hadoop_mapreduce" />
         <module name="orderInversion" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="commonFriend" target="1.7" />
+      <module name="commonFriend-archetype" target="1.5" />
+      <module name="hadoop_mapreduce" target="1.7" />
       <module name="orderInversion" target="1.7" />
+      <module name="testArchetype" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

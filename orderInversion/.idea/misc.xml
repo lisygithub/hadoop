@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../hadoopmapreducearchetype/pom.xml" />
+        <option value="$PROJECT_DIR$/../hadoop_mapreduce_archetype/pom.xml" />
+        <option value="$PROJECT_DIR$/../commonFriend/pom.xml" />
       </list>
     </option>
   </component>

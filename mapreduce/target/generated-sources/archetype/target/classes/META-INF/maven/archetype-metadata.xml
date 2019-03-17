@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" name="mapreduce"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileSets>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+      <excludes>
+        <exclude>org/apache/hadoop/io/nativeio/NativeIO.java</exclude>
+        <exclude>org/dataalgorithms/mapreduce/CompositeKey.java</exclude>
+        <exclude>org/dataalgorithms/mapreduce/CompositeKeyComparator.java</exclude>
+        <exclude>org/dataalgorithms/mapreduce/NaturalKeyGroupingComparator.java</exclude>
+        <exclude>org/dataalgorithms/mapreduce/NaturalKeyPartitioner.java</exclude>
+        <exclude>org/dataalgorithms/mapreduce/NaturalValue.java</exclude>
+        <exclude>org/dataalgorithms/mapreduce/package-info.java</exclude>
+        <exclude>org/dataalgorithms/mapreduce/SecondarySortDriver.java</exclude>
+        <exclude>org/dataalgorithms/mapreduce/SecondarySortMapper.java</exclude>
+        <exclude>org/dataalgorithms/mapreduce/SecondarySortReducer.java</exclude>
+        <exclude>util/DateUtil.java</exclude>
+      </excludes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>org/apache/hadoop/io/nativeio/NativeIO.java</include>
+        <include>org/dataalgorithms/mapreduce/CompositeKey.java</include>
+        <include>org/dataalgorithms/mapreduce/CompositeKeyComparator.java</include>
+        <include>org/dataalgorithms/mapreduce/NaturalKeyGroupingComparator.java</include>
+        <include>org/dataalgorithms/mapreduce/NaturalKeyPartitioner.java</include>
+        <include>org/dataalgorithms/mapreduce/NaturalValue.java</include>
+        <include>org/dataalgorithms/mapreduce/package-info.java</include>
+        <include>org/dataalgorithms/mapreduce/SecondarySortDriver.java</include>
+        <include>org/dataalgorithms/mapreduce/SecondarySortMapper.java</include>
+        <include>org/dataalgorithms/mapreduce/SecondarySortReducer.java</include>
+        <include>util/DateUtil.java</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>.idea/libraries</directory>
+      <includes>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>.idea</directory>
+      <includes>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>mapreduce.iml</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>

@@ -1,0 +1,13 @@
+org\apache\hadoop\io\nativeio\NativeIO$Windows.class
+org\apache\hadoop\io\nativeio\NativeIO$CachedUid.class
+org\apache\hadoop\io\nativeio\NativeIO$Windows$AccessRight.class
+com\lisy\reduces\CommonFriendReducer.class
+org\apache\hadoop\io\nativeio\NativeIO$POSIX$CacheManipulator.class
+org\apache\hadoop\io\nativeio\NativeIO$POSIX$IdCache.class
+org\apache\hadoop\io\nativeio\NativeIO.class
+org\apache\hadoop\io\nativeio\NativeIO$POSIX$Stat.class
+org\apache\hadoop\io\nativeio\NativeIO$POSIX$NoMlockCacheManipulator.class
+com\lisy\driver\CommonFriendDriver.class
+com\lisy\maps\CommonFriendMapper.class
+org\apache\hadoop\io\nativeio\NativeIO$POSIX$CachedName.class
+org\apache\hadoop\io\nativeio\NativeIO$POSIX.class
